@@ -1,0 +1,18 @@
+USE AdventureWorks2019
+CREATE PROCEDURE SP TONEN
+@NAME varchar (80),
+AS
+BEGIN
+DECLARE @myld unfqueidentifier - NEWIDO)
+INSERT INTO production.ProductCategory ([NAME], rowgutd‚ModiFledDate)]
+VALUES (@myld, @NAME, "20224808*)
+GO
+
+
+CREATE FUNCTION getdateandtenure
+RETURNS TABLE
+AS
+RETURN
+SELECT
+LoginID, JobTitle, BirthDate, HireDate
+FROM HumanResources. Employee Get
